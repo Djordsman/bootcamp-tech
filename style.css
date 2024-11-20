@@ -12,6 +12,7 @@ body {
     padding: 0px;
     background: linear-gradient(180deg, rgba(12, 112, 242, 0.5)19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
     background-repeat: no-repeat;
+    border: 2.5px solid rgb(51, 50, 50);
 }
 
     #menu {
@@ -153,4 +154,67 @@ body {
             margin-top: 50px;
             box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
             cursor: pointer;
+        }
+
+        footer {
+            width: 100%;
+            background-color: var(--azul-dnc);
+        }
+
+        footer .menurodape {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+        footer ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;            
+        }
+
+        footer nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 420px;
+        }
+
+        footer h5 {
+            text-align: center;
+            background:black;
+            color: white;
+            font-weight: 800;
+            font-size: 25px;
+            font-family: var(--fonte-padrão);
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        footer ul li {
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 25px;
+            font-family: var(--fonte-padrão);
+            margin: 20px 0px 20px 0px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            color: var(--cinza-hover);
+        }
+
+        footer .endereço {
+            text-align: center;
+            color: white;
+            font-family: var(--fonte-padrão);
+            font-size: 18px;
+            font-weight: 600;
+            width: 20%;
         }
