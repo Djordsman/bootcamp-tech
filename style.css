@@ -208,6 +208,7 @@ body {
 
         footer ul li a:hover {
             color: var(--cinza-hover);
+            text-decoration: underline;
         }
 
         footer .endereço {
@@ -218,3 +219,83 @@ body {
             font-weight: 600;
             width: 20%;
         }
+
+        footer .rodape {
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        footer .rodape a{
+            font-family: var(--fonte-padrão);
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer .rodape .tu {
+            border-right: 2px solid rgb(255, 255, 255);
+        }
+
+        footer .rodape a:hover {
+            cursor: pointer;
+            color: var(--cinza-hover);
+            text-decoration: underline;
+        }
+        
+@media only screen and (max-width: 600px) {
+
+    #principal {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #menu a {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    #principal button {
+        width: 100%;
+        margin: 0px;
+    }
+
+    section h1 {
+        font-size: 38px;
+    }
+
+    section h2 {
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 20px;
+    }
+
+    .checkbox-itens label {
+        font-size: 17px;
+    }
+
+    footer .menurodape {
+        flex-direction: column;
+    }
+
+    footer .endereço {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+}
